@@ -1,0 +1,6 @@
+{
+  "name": "Text2Cal",
+  "description": "Convert raw unstructured text, WhatsApp itineraries, and syllabus schedules into standard RFC 5545 .ics calendar files.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
