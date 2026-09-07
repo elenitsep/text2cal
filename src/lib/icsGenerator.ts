@@ -160,3 +160,7 @@ export function getGoogleCalendarUrl(evt: CalendarEvent): string {
 
   return `https://calendar.google.com/calendar/render?${params.toString()}`;
 }
+
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => navigator.serviceWorker.register("/sw.js"));
+}
